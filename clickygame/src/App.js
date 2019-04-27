@@ -11,6 +11,7 @@ class App extends Component {
 
 render() {
   return (
+    <>
     <Wrapper >
     <div className="App">
       {this.state.cats.map(cat => (
@@ -24,6 +25,7 @@ render() {
       ))}
     </div>
     </Wrapper>
+    </>
   );
 }
 }
